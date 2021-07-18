@@ -16,10 +16,10 @@ protected:
 		this->take_a_hit_on_the_armor = 0;
 		this->break_armor = 0;
 	}
-	C_Armor(int attack_weapen, int break_weapen)
+	C_Armor(int take_a_hit_on_the_armor, int break_armor)
 	{
-		this->take_a_hit_on_the_armor = attack_weapen;
-		this->break_armor = break_weapen;
+		this->take_a_hit_on_the_armor = take_a_hit_on_the_armor;
+		this->break_armor = break_armor;
 	}
 	int take_a_hit_on_the_armor;
 	int break_armor;
