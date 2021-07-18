@@ -141,9 +141,13 @@
   <ItemGroup>
     <ClCompile Include="Army_Simulate_HW_armor.cpp" />
     <ClCompile Include="C_Armor.cpp" />
+    <ClCompile Include="C_Armor_Metal.cpp" />
+    <ClCompile Include="C_Armor_Rag.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="C_Armor.h" />
+    <ClInclude Include="C_Armor_Metal.h" />
+    <ClInclude Include="C_Armor_Rag.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
