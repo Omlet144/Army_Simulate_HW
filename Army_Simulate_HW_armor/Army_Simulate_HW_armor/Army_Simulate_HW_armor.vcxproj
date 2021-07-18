@@ -142,12 +142,24 @@
     <ClCompile Include="Army_Simulate_HW_armor.cpp" />
     <ClCompile Include="C_Armor.cpp" />
     <ClCompile Include="C_Armor_Metal.cpp" />
+    <ClCompile Include="C_Armor_Metal_corps.cpp" />
+    <ClCompile Include="C_Armor_Metal_helmet.cpp" />
+    <ClCompile Include="C_Armor_Metal_legs.cpp" />
     <ClCompile Include="C_Armor_Rag.cpp" />
+    <ClCompile Include="C_Armor_Rag_corps.cpp" />
+    <ClCompile Include="C_Armor_Rag_helmet.cpp" />
+    <ClCompile Include="C_Armor_Rag_legs.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="C_Armor.h" />
     <ClInclude Include="C_Armor_Metal.h" />
+    <ClInclude Include="C_Armor_Metal_corps.h" />
+    <ClInclude Include="C_Armor_Metal_helmet.h" />
+    <ClInclude Include="C_Armor_Metal_legs.h" />
     <ClInclude Include="C_Armor_Rag.h" />
+    <ClInclude Include="C_Armor_Rag_corps.h" />
+    <ClInclude Include="C_Armor_Rag_helmet.h" />
+    <ClInclude Include="C_Armor_Rag_legs.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
